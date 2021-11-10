@@ -25,7 +25,6 @@ namespace SingalRChatClient
                 {
                     var temp = currentColor;
                     Console.ForegroundColor = chatMessage.MessageColor;
-
                     var newMessage = $"{chatMessage.Sender}: {chatMessage.Text}";
                     Console.WriteLine(newMessage);
 
